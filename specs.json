@@ -1,46 +1,47 @@
 {
-    "specs": [
+  "specs": [
+    {
+      "spec_directory": "./spec",
+      "spec_terms_directory": "terms-definitions",
+      "output_path": "./docs",
+      "markdown_paths": [
+        "spec-head.md",
+        "terms-and-definitions-intro.md",
+        "spec-body.md"
+      ],
+      "title": "Spec-Up-T Starterpack",
+      "logo": "https://raw.githubusercontent.com/trustoverip/spec-up-t/refs/heads/master/src/install-from-boilerplate/boilerplate/static/logo.svg",
+      "logo_link": "https://github.com/blockchainbird/spec-up-t",
+      "source": {
+        "host": "github",
+        "account": "blockchainbird",
+        "repo": "spec-up-t-demo-on-documentation-website"
+      },
+      "external_specs": [
         {
-            "spec_directory": "./spec",
-            "spec_terms_directory": "terms-definitions",
-            "output_path": "./docs",
-            "markdown_paths": [
-                "intro.md",
-                "terms-and-definitions-intro.md",
-                "example-markup-in-markdown.md",
-                "outro.md"
-            ],
-            "title": "Spec-Up-T Starterpack",
-            "logo": "https://raw.githubusercontent.com/trustoverip/spec-up-t/refs/heads/master/src/install-from-boilerplate/boilerplate/static/logo.svg",
-            "logo_link": "https://github.com/blockchainbird/spec-up-t",
-            "source": {
-                "host": "github",
-                "account": "blockchainbird",
-                "repo": "spec-up-t-demo-on-documentation-website"
-            },
-            "external_specs": [
-                {
-                    "external_spec": "test-1",
-                    "gh_page": "https://blockchainbird.github.io/spec-up-xref-test-1/",
-                    "url": "https://github.com/blockchainbird/spec-up-xref-test-1",
-                    "terms_dir": "spec/term-definitions"
-                },
-                {
-                    "external_spec": "test-2",
-                    "gh_page": "https://blockchainbird.github.io/spec-up-xref-test-2/",
-                    "url": "https://github.com/blockchainbird/spec-up-xref-test-2",
-                    "terms_dir": "spec/term-definitions"
-                },
-                {
-                    "external_spec": "test-3",
-                    "gh_page": "https://github.com/trustoverip/ctwg-main-glossary",
-                    "url": "https://github.com/trustoverip/ctwg-main-glossary",
-                    "terms_dir": "spec/terms-definitions"
-                }
-
-            ],
-            "katex": false,
-            "searchHighlightStyle": "ssi"
+          "external_spec": "test-1",
+          "gh_page": "https://blockchainbird.github.io/spec-up-xref-test-1/",
+          "url": "https://github.com/blockchainbird/spec-up-xref-test-1",
+          "terms_dir": "spec/term-definitions"
+        },
+        {
+          "external_spec": "test-2",
+          "gh_page": "https://blockchainbird.github.io/spec-up-xref-test-2/",
+          "url": "https://github.com/blockchainbird/spec-up-xref-test-2",
+          "terms_dir": "spec/term-definitions"
+        },
+        {
+          "external_spec": "test-3",
+          "gh_page": "https://github.com/trustoverip/ctwg-main-glossary",
+          "url": "https://github.com/trustoverip/ctwg-main-glossary",
+          "terms_dir": "spec/terms-definitions"
         }
-    ]
+      ],
+      "katex": false,
+      "anchor_symbol": "§",
+      "searchHighlightStyle": "ssi",
+      "author": "Trust over IP Foundation",
+      "description": "Create technical specifications in markdown. Based on the original Spec-Up, extended with Terminology tooling"
+    }
+  ]
 }
